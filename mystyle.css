@@ -51,19 +51,6 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#rcorners {
-    border-radius: 25px;
-    border: 4px solid #e91e63;
-    padding: 20px;
-    width: 500px;
-    height: auto;
-    color: #FF5D80;
-    background-color: #ffeef8;
-    margin: 20px auto;
-    text-align: center;
-}
-
-
 footer {
     background: #ff4081;
     text-align: center;
