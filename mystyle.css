@@ -76,7 +76,7 @@ footer {
 .border {
     .border {
         border: 2px dotted #ff69b4;
-        padding: 5px 10px;
+        padding: 5px auto;
         display: inline-block;
         border-radius: 8px;
         font-weight: bold;
@@ -88,7 +88,7 @@ p{
     border-left: 6px solid #FF5D80;
     background-color: #ffeef8;
     padding: 10px;
-    margin: 15px 0;
+    margin: 15px auto;
 }
 @media (max-width: 768px) {
     .profile-picture {
@@ -157,9 +157,12 @@ p{
         font-size: 1.5em;
     }
     #rcorners {
-        width: 100%;
-        height: auto; 
+        width: 95%;
+        padding: 10px; 
+        font-size: 0.9rem; 
+        max-width: none; 
     }
+
     p {
         height: auto;
         padding: 10px;
@@ -300,12 +303,12 @@ h1 {
 
 .profile-info {
     max-width: 90%; 
-    padding: 15px 20px; 
+    padding: 15px ; 
     margin: 20px auto; 
     background-color: #f8d7da;
     border: 2px solid #f5c6cb;
-    border-radius: 10px;
+    border-radius: 10px ;
     text-align: center;
-    font-size: 1.1rem; 
+    font-size: 1rem; 
     box-sizing: border-box;
 }
