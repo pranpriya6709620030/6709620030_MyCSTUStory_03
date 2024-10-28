@@ -1,0 +1,169 @@
+#rcorners {
+    border-radius: 25px;
+    border: 4px solid #e91e63;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    color:#FF5D80;
+    background-color: #ffeef8;
+    margin: 20px auto;
+    text-align: center;
+}
+p, h2, h3 {
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #C3EEFA;
+}
+
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec;
+}
+
+header {
+    background: #ff4081;
+    color: #ffffff;
+    padding: 20px ;
+    text-align: center;
+    border-bottom: 5px solid #e91e63;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#rcorners {
+    border-radius: 25px;
+    border: 4px solid #e91e63;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    color: #FF5D80;
+    background-color: #ffeef8;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+footer {
+    background: #ff4081;
+    text-align: center;
+    padding: 10px 0;
+    background: #ff4081;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.border {
+    border:dotted 5px #e91e63;
+    padding: 5px;
+    display: inline-block;
+}
+p{
+    border-left: 6px solid #FF5D80;
+    background-color: #ffeef8;
+    padding: 10px;
+    margin: 15px 0;
+}
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+        margin: 10px;
+        max-width: 90%;
+    }
+    header, footer {
+        padding: 15px 0;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    #rcorners {
+        width: 90%;
+        padding: 15px;
+    }
+    p {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+        margin: 5px;
+        max-width: 95%;
+    }
+    header, footer {
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    #rcorners {
+        width: 100%;
+        height: auto; 
+    }
+    p {
+        height: auto;
+        padding: 10px;
+    }
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #FF5D80;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+img {
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+main .intro {
+    background-color: #ffffff; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
