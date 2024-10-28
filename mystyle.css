@@ -98,6 +98,7 @@ p{
     .profile-info {
         font-size: 1rem;
         padding: 15px;
+        max-width: 600px;
     }
     main {
         padding: 15px;
@@ -140,6 +141,7 @@ p{
     }
 
     .profile-info {
+        max-width: 100%;
         font-size: 0.9rem;
         padding: 10px;
     }
@@ -297,11 +299,13 @@ h1 {
 }
 
 .profile-info {
-    font-size: 1.2rem;
-    padding: 20px;
+    max-width: 90%; 
+    padding: 15px 20px; 
+    margin: 20px auto; 
     background-color: #f8d7da;
     border: 2px solid #f5c6cb;
     border-radius: 10px;
-    margin-top: 20px;
     text-align: center;
+    font-size: 1.1rem; 
+    box-sizing: border-box;
 }
